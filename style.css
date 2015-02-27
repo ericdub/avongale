@@ -1,0 +1,93 @@
+/*
+Theme Name: Avon Gale
+Description: Child theme for author site
+Author: Eric Watkins
+Version: 0.1
+Template: arcade-basic
+*/
+
+@import url("../arcade-basic/style.css");
+
+
+
+.dashicons, .dashicons-before:before  {
+    font-size: 3em;
+    color: #fff;
+}
+
+.navbar-collapse {
+
+    max-height: 700px;
+}
+.navbar-nav.social-nav li {
+margin-top: 0px;
+    padding: 0px;
+
+}
+
+.social-nav {
+  overflow:hidden;   
+}
+
+.navbar-nav.social-nav ul {
+margin-top: 0px;
+    padding: 0px;
+
+}
+
+.navbar-nav > li > a {
+    line-height: 3em;
+}
+
+i.dashicons, i.dashicons-before:before {
+    width: 20px;
+    overflow: visible;
+    
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) {
+/* Styles */
+    
+    .dashicons-camera:after {
+    content: " INSTAGRAM";
+            font-size: .3em;
+     
+       font-family:  Open Sans, sans-serif;
+        display: inline-block;
+        position: absolute;
+        margin-top: 1em;
+
+    }
+    .dashicons-facebook:after {
+    content: " FACEBOOK";
+            font-size: .3em;
+     
+       font-family:  Open Sans, sans-serif;
+        display: inline-block;
+        position: absolute;
+        margin-top: 1em;
+
+    }
+    
+    .dashicons-twitter:after {
+    content: " TWITTER";
+            font-size: .3em;
+     
+       font-family:  Open Sans, sans-serif;
+        display: inline-block;
+        position: absolute;
+        margin-top: 1em;
+
+    }
+      
+    i.dashicons {
+    width: 320px;
+      vertical-align: text-top;
+        text-align: left;
+    
+}
+    
+    
+}
